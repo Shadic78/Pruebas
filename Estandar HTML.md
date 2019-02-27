@@ -25,11 +25,19 @@ Elementos de la plantilla
 Para empezar, todos los archivos HTML deberán comenzar con la siguiente
 etiqueta:
 
+\`\`\` html
+
 \<!DOCTYPE HTML\>
+
+\`\`\`
 
 Dentro del header la primera etiqueta que deberá incluirse será:
 
+\`\`\` html
+
 \<meta charset="utf-8" /\>
+
+\`\`\`
 
 Seguido de las siguientes etiquetas:
 
