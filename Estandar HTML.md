@@ -1,5 +1,3 @@
-**Estándares de codificación**
-=========================
 **Estándar de codificación para HTML**
 =========================
 Lo siguiente serán las reglas que el equipo deberá seguir al momento de crear
@@ -50,47 +48,33 @@ Etiquetas
 Todas las etiquetas HTML deberán estar escritas en minúsculas.
 ```html
 <!-- Correcto -->
-
 <span></span>
 
 <!-- Incorrecto -->
-
 <SPAN\></SPAN>
 ```
 Todas las etiquetas deberán tener su etiqueta de cierre correspondiente.
 ```html
 <!-- Correcto -->
-
 <h1>Titulo 1</h1>
-
 <p>Párrafo 1</p>
 
 <!-- Incorrecto -->
-
 <h1>Titulo 1
-
 <p>Párrafo 1
   ```
 Las etiquetas que no lleven etiqueta de cierre deberán llevar una “/” al final.
 ```html
 <!-- Correcto -->
-
 <br />
-
 <hr />
-
 <img src="john.jpg" alt="John Doe" width="200" height="100" />
-
-\<input name="age" type="text" size="3" />
+<input name="age" type="text" size="3" />
 
 <!-- Incorrecto -->
-
 <br>
-
 <hr>
-
 <img src="john.jpg" alt="John Doe" width="200" height="100">
-
 <input name="age" type="text" size="3">
 ```
 Atributos
@@ -99,22 +83,18 @@ Atributos
 Los atributos siempre deberán ir escritos en minúsculas.
 ```html
 <!-- Correcto -->
-
 <input name="name" type="text" />
 
 <!-- Incorrecto -->
-
 <input NAME="name" TYPE="text" />
 ```
 Los valores de los atributos de las etiquetas siempre deberán ir entre comillas
 (“ ”).
 ```html
 <!-- Correcto -->
-
 <input name="age" type="text" size="3" />
 
 <!-- Incorrecto -->
-
 <input name=age type=text size=3 />
 ```
 Indentación
@@ -125,7 +105,7 @@ indentarse apropiadamente utilizando 2 espacios, ejemplo:
 ```html
 <div class="container">
   <header class="header">
-    <h1>Site Name<span></span\></h1>
+    <h1>Site Name<span></span></h1>
   </header>
   <hr>
   <nav class="navigation">
