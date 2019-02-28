@@ -72,113 +72,113 @@ Todas las etiquetas deberán tener su etiqueta de cierre correspondiente.
 <p>Párrafo 1
   ```
 Las etiquetas que no lleven etiqueta de cierre deberán llevar una “/” al final.
+```html
+<!-- Correcto -->
 
-\<!-- Correcto --\>
+<br />
 
-\<br /\>
+<hr />
 
-\<hr /\>
+<img src="john.jpg" alt="John Doe" width="200" height="100" />
 
-\<img src="john.jpg" alt="John Doe" width="200" height="100" /\>
+\<input name="age" type="text" size="3" />
 
-\<input name="age" type="text" size="3" /\>
+<!-- Incorrecto -->
 
-\<!-- Incorrecto --\>
+<br>
 
-\<br\>
+<hr>
 
-\<hr\>
+<img src="john.jpg" alt="John Doe" width="200" height="100">
 
-\<img src="john.jpg" alt="John Doe" width="200" height="100"\>
-
-\<input name="age" type="text" size="3"\>
-
+<input name="age" type="text" size="3">
+```
 Atributos
 =========
 
 Los atributos siempre deberán ir escritos en minúsculas.
+```html
+<!-- Correcto -->
 
-\<!-- Correcto --\>
+<input name="name" type="text" />
 
-\<input name="name" type="text" /\>
+<!-- Incorrecto -->
 
-\<!-- Incorrecto --\>
-
-\<input NAME="name" TYPE="text" /\>
-
+<input NAME="name" TYPE="text" />
+```
 Los valores de los atributos de las etiquetas siempre deberán ir entre comillas
 (“ ”).
+```html
+<!-- Correcto -->
 
-\<!-- Correcto --\>
+<input name="age" type="text" size="3" />
 
-\<input name="age" type="text" size="3" /\>
+<!-- Incorrecto -->
 
-\<!-- Incorrecto --\>
-
-\<input name=age type=text size=3 /\>
-
+<input name=age type=text size=3 />
+```
 Indentación
 ===========
 
 Cuando un elemento contenga a uno o más elementos, dichos elementos deberán
 indentarse apropiadamente utilizando 2 espacios, ejemplo:
+```html
+<div class="container">
 
-\<div class="container"\>
+<header class="header">
 
-\<header class="header"\>
+<h1>Site Name<span></span\></h1>
 
-\<h1\>Site Name\<span\>\</span\>\</h1\>
+</header>
 
-\</header\>
+<hr>
 
-\<hr\>
+<nav class="navigation">
 
-\<nav class="navigation"\>
+<ul>
 
-\<ul\>
+<li><a href="#">Link</a></li>
 
-\<li\>\<a href="\#"\>Link\</a\>\</li\>
+<li><a href="#">Link</a></li>
 
-\<li\>\<a href="\#"\>Link\</a\>\</li\>
+<li><a href="#">Link</a></li>
 
-\<li\>\<a href="\#"\>Link\</a\>\</li\>
+<li><a href="#">Link</a></li>
 
-\<li\>\<a href="\#"\>Link\</a\>\</li\>
+<li><a href="#">Link</a></li>
 
-\<li\>\<a href="\#"\>Link\</a\>\</li\>
+</ul>
 
-\</ul\>
+</nav>
 
-\</nav\>
-
-\</div\>
-
+</div>
+```
 Comentarios
 ===========
 
 Deberán ponerse comentarios abajo de la etiqueta de cierre de los elementos HTML
 indicando que elemento acaba de terminar, de la siguiente forma:
+```html
+<ol class="accessibility-nav">
 
-\<ol class="accessibility-nav"\>
+<li><a href="#navigation">Skip to navigation</a></li>
 
-\<li\>\<a href="\#navigation"\>Skip to navigation\</a\>\</li\>
+<li><a href="#content">Skip to content</a></li>
 
-\<li\>\<a href="\#content"\>Skip to content\</a\>\</li\>
+<li><a href="#sidebar">Skip to sidebar</a></li>
 
-\<li\>\<a href="\#sidebar"\>Skip to sidebar\</a\>\</li\>
+</ol>
 
-\</ol\>
+<!-- / Fin barra de navegacion -->
 
-\<!-- / Fin barra de navegacion --\>
+<p>
 
-\<p\>
+<a href="#" title="Go to homepage"><em>Home</em></a>
 
-\<a href="\#" title="Go to homepage"\>\<em\>Home\</em\>\</a\>
+</p>
 
-\</p\>
-
-\<!-- / Fin parrafo --\>
-
+<!-- / Fin parrafo -->
+```
 Imágenes
 ========
 
