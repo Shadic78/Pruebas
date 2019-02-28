@@ -24,50 +24,53 @@ Elementos de la plantilla
 
 Para empezar, todos los archivos HTML deberán comenzar con la siguiente
 etiqueta:
-
-\<!DOCTYPE HTML\>
+```html
+<!DOCTYPE HTML>
+```
 
 Dentro del header la primera etiqueta que deberá incluirse será:
 
 ```html
 
-\<meta charset="utf-8" /\>
+<meta charset="utf-8" />
 
 ```
 
 Seguido de las siguientes etiquetas:
-
-\<meta name="viewport" content="width=device-width, initial-scale=1.0" /\>
-
-\<meta http-equiv="X-UA-Compatible" content="ie=edge"/\>
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+```html
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+```
 
 Etiquetas
 =========
 
 Todas las etiquetas HTML deberán estar escritas en minúsculas.
+```html
+<!-- Correcto -->
 
-\<!-- Correcto --\>
+<span></span>
 
-\<span\>\</span\>
+<!-- Incorrecto -->
 
-\<!-- Incorrecto --\>
-
-\<SPAN\>\</SPAN\>
-
+<SPAN\></SPAN>
+```
 Todas las etiquetas deberán tener su etiqueta de cierre correspondiente.
+```html
+<!-- Correcto -->
 
-\<!-- Correcto --\>
+<h1>Titulo 1</h1>
 
-\<h1\>Titulo 1\</h1\>
+<p>Párrafo 1</p>
 
-\<p\>Párrafo 1\</p\>
+<!-- Incorrecto -->
 
-\<!-- Incorrecto --\>
+<h1>Titulo 1
 
-\<h1\>Titulo 1
-
-\<p\>Párrafo 1
-
+<p>Párrafo 1
+  ```
 Las etiquetas que no lleven etiqueta de cierre deberán llevar una “/” al final.
 
 \<!-- Correcto --\>
