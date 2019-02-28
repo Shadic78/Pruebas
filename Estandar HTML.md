@@ -51,7 +51,7 @@ Todas las etiquetas HTML deberán estar escritas en minúsculas.
 <span></span>
 
 <!-- Incorrecto -->
-<SPAN\></SPAN>
+<SPAN></SPAN>
 ```
 Todas las etiquetas deberán tener su etiqueta de cierre correspondiente.
 ```html
