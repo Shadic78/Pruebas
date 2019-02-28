@@ -4,7 +4,9 @@ Estandar de codificación para CSS
 Documento CSS
 ====================
 Todos los estilos CSS que se utilicen deberán estar en un archivo “style.css”, deberá evitarse colocar estilos dentro de los documentos HTML.
+
 Nombres
+====================
 Las clases e id deberán ser representativas y si tienen mas de una palabra deberán separarse con “- “, todo deberá estar en minúsculas.
 ```css
 /* Correcto */
@@ -15,6 +17,7 @@ Las clases e id deberán ser representativas y si tienen mas de una palabra debe
 .ContenedorArticulos
 ```
 Valores
+====================
 Siempre deberá declararse mas de una fuente en caso de que el navegador no pueda mostrar la primera opción, además cada valor deberá estar separado por un espacio después de la coma.
 ```css
 /* Correcto */
@@ -36,6 +39,7 @@ Si se usa cero como valor, no deberá incluirse la medida que se está usando.
 }
 ```
 Selectores
+====================
 Los selectores deberán estar separados por un espacio entre si y entre la llave de apertura, además el siguiente selector deberá estar separado por una línea del anterior.
 ```css
 .nav li {
@@ -54,6 +58,7 @@ Se deberá evitar el uso de expresiones grandes como la siguiente:
 Para evitar lo anterior se deberá tener el cuidado de estructurar de la manera mas optima posible el código HTML.
 
 Indentación
+====================
 Las propiedades deberán estar indentadas con dos espacios y solo deberá haber una propiedad por línea.
 ```css
 .titulo-header span {
@@ -63,6 +68,7 @@ Las propiedades deberán estar indentadas con dos espacios y solo deberá haber 
 }
 ```
 Comentarios
+====================
 Deberá usarse el siguiente tipo de comentario para separar las secciones principales.
 ```css
 /* ==========================================================================
