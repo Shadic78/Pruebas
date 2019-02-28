@@ -29,11 +29,11 @@ etiqueta:
 
 Dentro del header la primera etiqueta que deberá incluirse será:
 
-\`\`\`html
+```html
 
 \<meta charset="utf-8" /\>
 
-\`\`\`
+```
 
 Seguido de las siguientes etiquetas:
 
