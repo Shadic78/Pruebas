@@ -1,7 +1,7 @@
 **Estándares de codificación**
-
+=========================
 **Estándar de codificación para HTML**
-
+=========================
 Lo siguiente serán las reglas que el equipo deberá seguir al momento de crear
 código HTML.
 
