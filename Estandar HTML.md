@@ -124,33 +124,19 @@ Cuando un elemento contenga a uno o más elementos, dichos elementos deberán
 indentarse apropiadamente utilizando 2 espacios, ejemplo:
 ```html
 <div class="container">
-
-<header class="header">
-
-<h1>Site Name<span></span\></h1>
-
-</header>
-
-<hr>
-
-<nav class="navigation">
-
-<ul>
-
-<li><a href="#">Link</a></li>
-
-<li><a href="#">Link</a></li>
-
-<li><a href="#">Link</a></li>
-
-<li><a href="#">Link</a></li>
-
-<li><a href="#">Link</a></li>
-
-</ul>
-
-</nav>
-
+  <header class="header">
+    <h1>Site Name<span></span\></h1>
+  </header>
+  <hr>
+  <nav class="navigation">
+    <ul>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </nav>
 </div>
 ```
 Comentarios
@@ -160,23 +146,15 @@ Deberán ponerse comentarios abajo de la etiqueta de cierre de los elementos HTM
 indicando que elemento acaba de terminar, de la siguiente forma:
 ```html
 <ol class="accessibility-nav">
-
-<li><a href="#navigation">Skip to navigation</a></li>
-
-<li><a href="#content">Skip to content</a></li>
-
-<li><a href="#sidebar">Skip to sidebar</a></li>
-
+  <li><a href="#navigation">Skip to navigation</a></li>
+  <li><a href="#content">Skip to content</a></li>
+  <li><a href="#sidebar">Skip to sidebar</a></li>
 </ol>
-
 <!-- / Fin barra de navegacion -->
 
 <p>
-
-<a href="#" title="Go to homepage"><em>Home</em></a>
-
+  <a href="#" title="Go to homepage"><em>Home</em></a>
 </p>
-
 <!-- / Fin parrafo -->
 ```
 Imágenes
@@ -185,39 +163,39 @@ Imágenes
 Las imágenes deberán estar dentro de una carpeta llamada img y al llamarlas con
 la etiqueta \<img /\> debera colocarse la extensión de la imagen. (jpg, png,
 etc.).
-
-\<img src="img/imagen1.png" /\>
-
+```html
+<img src="img/imagen1.png" />
+```
 Las imágenes deberán tener el atributo “alt” especificando que imagen es.
-
-\<img src="img/logo.png" alt="Logo de la empresa" /\>
-
+```html
+<img src="img/logo.png" alt="Logo de la empresa" />
+```
 Formularios
 ===========
 
 Las cajas de texto deberán llevar el atributo “placeholder” indicando que se
 debe ingresar.
-
-\<input type="text" placeholder="Numero de celular" /\>
-
+```html
+<input type="text" placeholder="Numero de celular" />
+```
 Las cajas de texto deberán tener un id y name iguales, el cual deberá ser
 representativo.
-
-\<input type="text" placeholder="Numero de celular" id="numCelular"
-name="numCelular" /\>
-
+```html
+<input type="text" placeholder="Numero de celular" id="numCelular"
+name="numCelular" />
+```
 Los labels deberán incluir el atributo “for” indicando el id del input al que se
 refieren.
-
-\<label for="numCelular" \>Ingresa tu número de celular: \</label\>
-
-\<input type="text" placeholder="Numero de celular" id="numCelular"
-name="numCelular" /\>
-
+```html
+<label for="numCelular" >Ingresa tu número de celular: </label>
+<input type="text" placeholder="Numero de celular" id="numCelular"
+name="numCelular" />
+```
 Titulos
 =======
 
 Se debera utilizar las etiquetas h1 – h6 para indicar los títulos que se
 necesiten.
-
-\<h1\>Titulo\</h1\>
+```html
+<h1>Titulo</h1>
+```
