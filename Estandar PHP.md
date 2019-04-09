@@ -17,6 +17,7 @@ require 'archivo.php';
 require('archivo.php');
 ```
 El codigo de arriba siempre debera estar arriba de todo, los "require" deberan ir primero que todo en un archivo php.
+
 ---
 
 ## Variables
@@ -43,12 +44,14 @@ Al momento de utilizar if, for, while, funciones, etc. Se deberá de utilizar la
   }
 ```
 La llave de apertura deberá estar en la misma línea que la función y separada por un espacio.
+
 ---
 
 ## Comentarios
 Se deberá evitar el uso de comentarios innecesarios para cosas que sean muy obvias, como por ejemplo “lee una variable”, los comentarios deberán utilizarse cuando el programa no sea tan obvio o cuando haya posibles excepciones o errores. 
 
 Se debera realizar un bloque de comentario arriba de todas las funciones que se creen, utilizando los tags de PhpDocumentor, esto con motivo de poder generar documentacion automatica.
+
 ---
 
 ## Indentación
@@ -64,4 +67,5 @@ if($numero > 10) {
 
 ## Documentación automatica
 Para generar documentación automatica se utilizara la herramienta PhpDocumentor, la cual puede encontrarse en el siguiente enlace: https://www.phpdoc.org/
+
 ---
